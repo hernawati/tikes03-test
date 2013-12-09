@@ -1,0 +1,16 @@
+2013/12/09 08:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\xampp\htdocs\rs-2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\rs-2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 D:\xampp\htdocs\rs-2\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rs-2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rs-2/index.php?r=gii
+---
+2013/12/09 08:50:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in D:\xampp\htdocs\rs-2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\rs-2\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 D:\xampp\htdocs\rs-2\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\rs-2\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/rs-2/index.php?r=gii
+---
